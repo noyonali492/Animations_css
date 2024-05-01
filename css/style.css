@@ -2,9 +2,14 @@
     width: 100px;
     height: 100px;
     background: red;
-    animation: noyon 2s;
+    animation: noyon 4s;
 }
 @keyframes noyon{
-    from{background-color: red;}
-    to {background-color: yellow;}
+    /* from{background-color: red;}
+    to {background-color: yellow;} */
+    0%{background-color: red;}
+    25%{background-color: yellow;}
+    50%{background-color: green;}
+    75%{background-color: #f8f9f9;}
+    100%{background-color: black;}
 }
