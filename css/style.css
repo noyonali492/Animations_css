@@ -1,0 +1,10 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: noyon 2s;
+}
+@keyframes noyon{
+    from{background-color: red;}
+    to {background-color: yellow;}
+}
