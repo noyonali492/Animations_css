@@ -3,13 +3,14 @@
     height: 100px;
     background: red;
     position: relative;
-    animation: noyon 4s 2s;
+    animation: noyon 4s 2s 3 alternate-reverse backwards;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
 }
 @keyframes noyon{
     /* from{background-color: red;}
     to {background-color: yellow;} */
     0%{
-        background-color: red;
+        background-color: blue;
         left: 0px;
         top: 0px;
     }
